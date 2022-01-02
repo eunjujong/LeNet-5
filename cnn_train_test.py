@@ -9,6 +9,7 @@ import os
 from decimal import Decimal
 import statistics
 import time
+from lenet import *
 
 class CNN:
     def __init__(self, train_x, learning_rate, pca):
