@@ -9,6 +9,9 @@ import os
 from decimal import Decimal
 import statistics
 import time
+from cnn_train_test import *
+from lenet import *
+from subsample import *
 
 if __name__ == '__main__':
     # SVHN dataset
