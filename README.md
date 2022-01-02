@@ -1,5 +1,5 @@
 
-Lenet-5
+# Lenet-5 (LeCun et al., 1998a)
 
 This Lenet-5 implementation in python is a slightly modified version of the original LeNet-5 (LeCun et al., 1998a).  
 
@@ -17,4 +17,11 @@ The following architecture assumes that the image has been extracted and resized
 
 Built-in libraries are imported in the Notebook. (pandas, numpy, random, math, matplotlib.pyplot, scipy.io, os, decimal, statistics, time)
 No additional libraries are needed to run the model.  
+
+
+# Data Sources
+http://ufldl.stanford.edu/housenumbers/
+https://www.cs.toronto.edu/~kriz/cifar.html
+http://yann.lecun.com/exdb/mnist/
+
 
