@@ -1,10 +1,3 @@
-Final Project - readme.txt
-Eun Ju Jong
-CS 613 Machine Learning
-Fall 2021
-Dr. Edward Kim
-Drexel University
-
 
 Lenet-5
 
