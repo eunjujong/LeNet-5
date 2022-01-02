@@ -8,7 +8,6 @@ from decimal import Decimal
 import statistics
 
 
-
 # plot CIFAR-10 sample
 # data labels
 labels = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
