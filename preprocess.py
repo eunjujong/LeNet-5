@@ -8,7 +8,6 @@ from decimal import Decimal
 import statistics
 
 
-
 # load Street View House Numbers (SVHN) Dataset
 mat_train = scipy.io.loadmat('data/train_32x32.mat') 
 mat_test = scipy.io.loadmat('data/test_32x32.mat') 
@@ -16,7 +15,6 @@ digit_train = mat_train['X']
 digit_train_y = mat_train['y']
 digit_test = mat_test['X']
 digit_test_y = mat_test['y']
-
 
 
 # load CIFAR-10 dataset
@@ -36,7 +34,6 @@ for i in range(len(files)):
         
 img_train = np.concatenate(img_train, axis=3)
 img_train_y = np.concatenate(img_train_y, axis=0)
-
 
 # convert to Fortran order
 for i in range(img_train.shape[3]):
@@ -63,10 +60,8 @@ def convert(imgf, labelf, outf, n):
     o.close()
     l.close()
 
-
 convert('./Data/train-images-idx3-ubyte', './Data/train-labels-idx1-ubyte', 'mnist_train.csv', 60000)
 convert('./Data/t10k-images-idx3-ubyte', './Data/t10k-labels-idx1-ubyte', 'mnist_test.csv', 10000)
-
 
 
 # load MNIST dataset
